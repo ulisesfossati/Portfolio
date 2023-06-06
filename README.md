@@ -2,7 +2,7 @@
 
 Lo que quise lograr en este proyecto es que conozcan un poco mas sobre mi y sobre mi vida.
 
-## Demo
+## Page
 
 [Incluye un enlace para poder ver la pagina.](https://ulisesfossati.github.io/Portfolio/)
 
