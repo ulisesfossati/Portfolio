@@ -8,22 +8,44 @@ body{
     color: white;
     
 }
+
+
 header{
     background-color: #202024;
     display: flex;
     align-items: center;
     padding: 1em 0;
-
-    
+    height:4vh;
+    z-index: 10000;
+    max-width: 100%;
     position: fixed;
     width: 100%;
 }
-
+.xdlol{
+    
+    position: absolute;
+    top: 1;
+    right: 33em;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
 header a{
     text-decoration: none;
-    color: black;
-margin-left: 4em;
+margin-left: 2.5em;
+font-weight: bold;
 color: white;
+transition: all 300ms;
+background-color: transparent;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
+.madre:hover{
+    background-color: #5429CF;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    transition: 500ms;
 }
 
 header h2{
@@ -32,17 +54,25 @@ header h2{
     color: white;
 }
 
-
+.noche{
+    width: 3em;
+    height: 1.5em;
+    position: absolute;
+    top: 1;
+    right: 20em;
+    cursor: pointer;
+}
 /* Primer SECTION */
 .hero{
     background-color:#121214 ;
     height: 77vh;
-  
+ 
     
 }
 
 .flexuno{
     display: flex;
+   
     justify-content: space-between;
 }
 .primero{
@@ -81,12 +111,14 @@ padding-top: 14em;
    align-items: center;
    padding: 0.8em 3em;
    border-radius: 5px;
-
-   
-    
-   
+   transition: 300ms;
 }
 
+
+.hero a:hover{
+    transform: scale(1.12);
+    transition: 500ms;
+}
 .hero h3{
     margin-bottom: 0.5em;
    
@@ -204,7 +236,7 @@ padding-top: 3.9em;
     font-size: 1rem;
     background-color: #5429CF;
    display: flex;
-   align-items: center;
+   /* align-items: center; */
   margin-top: 5em;
    width: 7em;  
    border-radius: 4px;
@@ -212,12 +244,16 @@ padding-top: 3.9em;
    padding-top: 0.8em;
    padding-bottom: 0.8em; */
    padding: 0.8em 1.3em;
-   
+   transition:all 300ms;
    
    letter-spacing: 1.3px;
    
 }
 
+.in:hover{
+    transform: scale(1.12);
+    transition: 500ms;
+}
 
 .btnn{
  
@@ -252,14 +288,15 @@ padding-top: 3.9em;
 /* EMPIEZA TERCER SECTION */
 .proyectos{
     background-color: #121214;
-    height: 79vh;
+    height: 72vh;
+    
  
 }
 
 .titulo{
     display: flex;
     justify-content: center;
-    padding-top: 2.50em;
+    padding-top: 5em;
     margin-bottom: 1.5em;
 }
 
@@ -321,16 +358,38 @@ margin-bottom: 1em;
 }
 .xfavor{
     display: flex;
+    
 }
 
+.chiqui{
+    margin-top: 3.9em;
+}
 .githuba{
     text-decoration: none;
     color: #5429CF;
-    margin-top: 3em;
+    margin-top: 5em;
     display: flex;
     justify-content: center;
+    transition: 300ms;
     font-size: 1rem;
+    
+    height: 3em;
+    align-items: center;
+    
 }
+
+
+.githuba h4:hover{
+    background-color: #5429CF;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    transition: 500ms;
+    color: white;
+    
+}
+
+
+
 /* TERMINA TERCER SECTION */
 
 
@@ -364,8 +423,13 @@ margin-bottom: 1em;
     width: 50em;
     padding: 1.8em 1em;
     border-radius: 6px;
+    transition: all 300ms;
 }
 
+.pepe:hover{
+    transform: scale(1.12);
+    transition: 500ms;
+}
 .pepe h3{
     
     text-align: center;
@@ -401,11 +465,1245 @@ margin-bottom: 1em;
 
 
 /* EMPIEZA QUINTO SECTION */
+
+
+
+
+
+
+
+
+
+
 .habilidades{
     background-color: #121214;
+    display: flex;
+    height: 58vh;
+    justify-content: space-around;
 }
+
+.habilidades p {
+    
+    width: 25em;
+    margin-top: 1em;
+    
+}
+
+.ia{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.io{
+    display: flex;
+}
+
+
+
+
+
+
+/* IMAGEN 1 */
+.cuno{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;;
+    
+    
+    
+}
+
+.cuno p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagenuno{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+}
+
+
+
+/* IMAGEN DOS */
+
+.cdos{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+}
+
+.cdos p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility:hidden ;
+
+}
+.imagendos{
+    background-color: #202024;
+    display: flex;
+    padding: 1em 1em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+    width: 4em;
+}
+
+
+/* IMAGEN 3  */
+
+
+.ctres{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;;
+    
+    
+    
+}
+
+.ctres p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.6em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagentres{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+}
+
+/* IMAGEN CUATRO */
+
+.ccuatro{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.ccuatro p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagencuatro{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+
+
+
+
+.cuno:hover .texto {
+    
+    visibility: visible;
+    
+    
+}
+
+.cuno:hover .imagenuno {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.cdos:hover .texto {
+    
+    visibility: visible;
+    
+}
+.cdos:hover .imagendos {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.ctres:hover .texto {
+    
+    visibility: visible;
+    
+}
+
+.ctres:hover .imagentres {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+}
+
+.ccuatro:hover .texto {
+    
+    visibility: visible;
+    
+}
+.ccuatro:hover .imagencuatro {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+/* TERMINA PRIMERA PARTE DE IMGN */
+
+/* IMAGEN CINCO */
+
+.ccinco{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.ccinco p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagencinco{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+/* IMAGEN SEIS */
+.cseis{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.cseis p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagenseis{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+/* IMAGEN SIETE */
+.csiete{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.csiete p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.75em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagensiete{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    /* width: 4.3em; */
+   
+}
+
+
+/* IMAGEN OCHO */
+.cocho{
+    
+    width: 5.7em;
+    margin-right: 1.5em;
+    height: 9em;
+    
+    
+    
+    
+}
+
+.cocho p{
+    display: flex;
+    justify-content: center;
+    background-color: #202024;
+    width: 4em;
+    margin-bottom:1em ;
+    padding: 0.3em 1.55em;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    visibility: hidden;
+    
+
+}
+.imagenocho{
+    background-color: #202024;
+    display: flex;
+    padding: 1.4em 1.3em;
+    border-radius: 5px;
+    
+   
+}
+
+
+
+.cseis:hover .textodos {
+    
+    visibility: visible;
+   
+}
+.cseis:hover .imagenseis {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.ccinco:hover .textodos {
+    
+    visibility: visible;
+    
+}
+.ccinco:hover .imagencinco {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 100ms;
+    
+    
+}
+
+.csiete:hover .textodos {
+    
+    visibility: visible;
+    
+}
+.csiete:hover .imagensiete {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+.cocho:hover .textodos {
+    
+    visibility: visible;
+   
+}
+.cocho:hover .imagenocho {
+    
+    border-bottom: 5px solid #5429CF;
+    transition: 120ms;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+.flexing{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* .flexing h1{
+    padding-top: 6em;
+} */
 /* TERMINA QUINTO SECTION */
+
+
+/* EMPIEZA SEXTO SECTION */
+.formu{
+    background-color: #202024;
+    height: 67vh;
+   
+}
+
+form p{
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+input::placeholder{
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+}
+.formu h1{
+    display: flex;
+   padding-top: 2em;
+   font-size: 1.8rem;
+    justify-content: center;
+}
+.formulario{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.formu form{
+    display: flex;
+    flex-direction: column;
+}
+
+.emaill{
+    display: flex;
+    margin-top: em;
+}
+
+.mensaje{
+    margin-top: 2em;
+    height: 10em;
+    background-color: #121214;
+    outline: none;
+    border: 1px solid #454549;
+    color: white;
+    resize: none;
+    border-radius: 10px;
+    padding: 0.8em 1em;
+
+   
+}
+
+.btnenviar{
+    
+    justify-content: center;
+    display: flex;
+}
+.enviar{
+    width: 11.7em;
+    margin-top: 2em;
+    background-color: #5429CF;
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    padding: 1em 1em;
+    font-size: 1rem;
+    cursor: pointer;
+    
+
+    
+}
+
+
+
+.casilla{
+    background-color: #121214;
+    outline: none;
+    border: 1px solid #454549;
+    padding: 0.8em 1em;
+    color: white;
+    border-radius: 10px;
+    width: 15em;
+}
+
+.casillauno{
+    background-color: #121214;
+    outline: none;
+    border: 1px solid #454549;
+    padding: 0.8em 1em;
+    color: white;
+    border-radius: 10px;
+    width: 15em;
+    margin-right: 3em;
+}
+
+.emailde{
+    display: flex;
+    margin-top: 2em;
+}
+
+
+/* TERMINA SEXTO SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: #5429CF;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+footer a{
+    margin-right: 2.5em;
+    margin-top: 2.5em;
+}
+footer img{
+    width: 3.5em;
+    height: 3.5em;
+    cursor: pointer;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.todor{
+    display: flex;
+}
+.aver{
+    
+    /* display: flex;
+    justify-content: end;
+    width: 90%;
+    position: relative; */
+    position: absolute;
+    right:10em;
+    top: 1;
+    /* margin-right: 2em; */
+}
+.alturauno{
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.alturados{
+    height: 2.8em;
+    width: 2.8em;
+}
+
+.alturatres{
+    width: 2.5em;
+    height: 2.5em;
+}
+.todor{
+    
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* SECTOR MEDIA */
+
+.menuresponsive{
+    display: none;
+}
+.navbar{
+   
+    margin-left: 2em;
+    
+}
+
+
+.checkbox, .icons{
+    position: absolute;
+    top:10px;
+    right: 12px; 
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: 0.5em; 
+    cursor: pointer; 
+}
+
+.icons{pointer-events: none;
+    
+}
+
+.checkbox{
+    opacity: 0;
+}
+
+.checkbox:checked ~ .hambur{
+    display: none ;
+}
+
+.cruz{
+    display: none;
+}
+
+.checkbox:checked ~ .cruz{
+    display: block ;
+}
+
+.menu{
+    border-radius: 2px;
+    padding-bottom: 0.5em;
+    width: 12em;
+    position: absolute;
+    top:7.3vh;
+    right: 0;
+    background-color: #5429CF;
+    display: none;
+    /* transition: 250ms; */
+}
+
+.menu li{
+    list-style: none;
+    
+}
+
+.menu li{
+    margin-top: 0.8em;
+    font-size: 1.2rem;
+   
+    
+}
+
+.menu li a:hover{
+    text-decoration: underline ;
+    transition: 500ms;
+      vertical-align: bottom;
+}
+
+
+.checkbox:checked ~ .menu{
+    display: block ;
+    
+}
+
+.menucomun{
+    display: flex;
+}
+
+
+@media(max-width:767px){
+    body {
+        overflow-x: hidden;
+      }
+
+   
+    .noche{
+    display: none;
+   }
+
+   
+   .menuresponsive{
+    display: block;
+    
+}
+
+.menucomun{
+    display: none;
+}
+
+.violeta{
+    display: none;
+}
+
+.cursor{
+    display: none;
+}
+
+
+
+.primero{
+    margin-left: 0 ;
+}
+
+.hola{
+    display: flex;
+    width: 8em;
+    justify-content: center;
+}
+
+.nombre{
+    display: flex;
+    justify-content: center;
+}
+
+.primero h3{
+    
+    margin-left: 1.7em;
+}
+
+.wspp{
+    
+    width: 95% ;
+}
+
+/* SECTION 2 */
+.aboutme{
+    padding-bottom: 8em; 
+}
+
+.yo{
+    display: none;
+}
+.contenedorabot{
+    
+    width: 20em;
+}
+
+.minmbr{
+    width: 19em;
+}
+
+.haciendo{
+    width: 19em;
+}
+
+.prueba{
+    display: flex;
+    justify-content: center;
+    }
+
+/* SECTION 3 */
+
+.proyectos{
+    height: 280vh;
+}
+
+.union{
+    
+    width: 20em;
+    
+}
+.prdos, .pruno{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pruno{
+    margin-left: 3em; 
+    
+}
+.prdos{
+   
+    margin-left: 3em;   
+    height: 10em;
+}
+
+.monitor{
+    margin-right:2.5em;
+}
+
+.contenedor{
+    margin-top: 4.5em;
+}
+
+.pipe{
+    margin-top: 2.5em;
+}
+
+.githuba{
+    
+    margin-top: 57em;
+}
+
+/* SECTION CUATRO */
+.servicio{
+    height: 215vh;
+}
+.todos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.separador{
+    margin-right: 0;
+}
+
+.pepe{
+    width: 15em;
+    margin-left: -1em;   
+    
+    
+}
+
+.lino{
+    margin-top: 3em;
+}
+
+/* SECTION CINCO */
+.habilidades{
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+.flexing{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.habilidades p{
+   
+    justify-content: center;
+    width: 20em;
+}
+.cuno, .cdos, .ctres, .ccuatro, .ccinco, .cseis, .csiete, .cocho{
+    width: 0.5em;
+    height: 0.5em;
+    margin-bottom: 8em;
+    margin-right: 5em;
+}
+
+
+
+.imagenuno, .imagendos, .imagentres, .imagencinco, .imagencuatro, .imagenseis, .imagensiete, .imagenocho{
+    padding: 0.8em 0.8em;
+}
+
+.imagendos , .imagenuno, .imagenocho{
+    height: 3em;
+    width: 3em;
+    
+}
+
+.imagenocho{
+    width: 3.12em;
+    height: 3.12em;
+}
+
+.cuno p ,.cdos p, .ctres p .ccuatro p, .ccinco p, .cseis p, .csiete p, .cocho p{
+    width: 3.5em;
+    padding: 0.3em 1.55em;
+}
+
+.ccuatro p{
+    width: 3em;
+    padding: 0.3em 1.55em;
+}
+
+.ctres p{
+    width: 3.5em;
+    padding: 0.3em 1.55em;
+}
+
+/* SEXTO SECTION */
+
+.casilla , .casillauno{
+    width: 9em;
+}
+
+.formulario{
+    margin-top: 3em;
+}
+
+
+.formu{
+    height: 80vh;
+}
+
+
+
+/* FOOTER */
+.aver{
+    display: none;
+}
+
+}
+
+
+/* MEDIA PARA TABLET */
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    header h1{
+        margin-left: 3em;
+       }
+    
+    body {
+        /* overflow-x: hidden; */
+      }
+
+   
+    .noche{
+    display: none;
+   }
+
+
+   .menuresponsive{
+    display: block;
+    
+}
+
+.menucomun{
+    display: none;
+}
+
+
+.menu{
+    top: 6.9vh;
+}
+
+.violeta{
+    display: none;
+}
+
+.cursor{
+    display: none;
+}
+
+
+
+.primero{
+    margin-left: 0 ;
+}
+
+.hola{
+    display: flex;
+    width: 13.7em;
+    justify-content: end;
+    
+}
+
+.nombre{
+    display: flex;
+    width: 15.5em;
+    
+    justify-content: center;
+}
+
+.primero h3{
+    
+    margin-left: 1.7em;
+    display: flex;
+    justify-content: center;
+}
+
+.wspp{
+    
+    width: 95% ;
+}
+
+.hero{
+    
+    
+    height: 60vh;
+    
+}
+
+.flexuno{
+    display: flex;
+   
+    justify-content: center;}
+
+/* SECTION DOS */
+
+.aboutme{
+    height: 72vh;
+    padding-bottom: 2em;
+}
+.yo{
+    width: 24em;
+    height: 24em;
+}
+
+.minmbr{
+    width: 18em;
+}
+
+.haciendo{
+    width: 18em;
+}
+
+.linked{
+    
+    display: flex;
+    align-items: center;
+ position: absolute;
+ top: 75em;
+ right: 13em;
+    width: 10em;
+}
+
+.proyectos{
+    height: 230vh;
+}
+
+.union{
+    
+    width: 20em;
+    
+}
+.prdos, .pruno{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pruno{
+    margin-left: 3em; 
+    
+}
+.prdos{
+   
+    margin-left: 3em;   
+    height: 10em;
+}
+
+.monitor{
+    margin-right:2.5em;
+}
+
+.contenedor{
+    margin-top: 4.5em;
+}
+
+.pipe{
+    margin-top: 2.5em;
+}
+
+.githuba{
+    
+    margin-top: 57em;
+}
+
+
+.servicio{
+    height: 180vh;
+}
+.todos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.separador{
+    margin-right: 0;
+}
+
+.pepe{
+    width: 15em;
+    margin-left: -1em;   
+    
+    
+}
+
+.lino{
+    margin-top: 3em;
+}
+
+
+.habilidades{
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+.flexing{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.habilidades p{
+   
+    justify-content: center;
+    width: 20em;
+}
+.cuno, .cdos, .ctres, .ccuatro, .ccinco, .cseis, .csiete, .cocho{
+    width: 0.5em;
+    height: 0.5em;
+    margin-bottom: 8em;
+    margin-right: 5em;
+}
+
+
+
+.imagenuno, .imagendos, .imagentres, .imagencinco, .imagencuatro, .imagenseis, .imagensiete, .imagenocho{
+    padding: 0.8em 0.8em;
+}
+
+.imagendos , .imagenuno, .imagenocho{
+    height: 3em;
+    width: 3em;
+    
+}
+
+.imagenocho{
+    width: 3.12em;
+    height: 3.12em;
+}
+
+.cuno p ,.cdos p, .ctres p .ccuatro p, .ccinco p, .cseis p, .csiete p, .cocho p{
+    width: 3.5em;
+    padding: 0.3em 1.55em;
+}
+
+.ccuatro p{
+    width: 3em;
+    padding: 0.3em 1.55em;
+}
+
+.ctres p{
+    width: 3.5em;
+    padding: 0.3em 1.55em;
+}
+
+.aver{
+    right: 5em;
+}
+
+
+}
+
+
+@media screen and (min-width:1024px){
+
+  .xdlol{
+    right: 20em;
+  }
+
+  .noche{
+    right: 8em;
+  }
+
+
+  /* SECTION UNO */
+  .hero{
+    height: 85vh;
+  }
+
+.aboutme{
+    padding-bottom: 2em;
+}
+
+.proyectos{
+    height: 99vh;
+}
+
+.servicio{
+    padding-bottom: 4em;
+}
+
+.habilidades{
+    padding-bottom: 2em;
+}
+
+.formulario{
+    margin-top: 2em;
+}
+
+.formu{
+    height: 75vh;
+    padding-top: 2em;
+}
+
+
+
+}
+
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+.hero{
+    height: 70vh;
+}
+
+.proyectos{
+    height: 82vh;
+}
+
 }
