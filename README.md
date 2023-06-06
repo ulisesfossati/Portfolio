@@ -1,10 +1,10 @@
 # Portfolio de Ulises Fossati
 
-Lo que quise lograr con este proyecto que te cuente un poco de mi vida
+Lo que quise lograr en este proyecto es que conozcan un poco mas sobre mi y sobre mi vida.
 
 ## Demo
 
-[Incluye un enlace para poder ver la pagina.]()
+[Incluye un enlace para poder ver la pagina.](https://ulisesfossati.github.io/Portfolio/)
 
 ## Los lenguajes que use fueron:
 
